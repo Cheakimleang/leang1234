@@ -7,7 +7,7 @@ const { PREFIX } = require("./config.json")
 //CLIENT EVENTS
 client.on('ready', () => {
   function randomStatus() {
-    let status = ["Srolanh ke ta eng", "-lplay", "Bot"]
+    let status = ["Mora", "-mplay", "BotMora"]
     let rstatus = Math.floor(Math.random() * status.length);
 
     client.user.setActivity(status[rstatus], {type: "WATCHING"});
